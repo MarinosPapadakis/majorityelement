@@ -1,6 +1,6 @@
 # majorityelement
 
-**Version 1.0.0** 
+**Version 1.0.0** [Change Log](CHANGELOG.md)
 
 This project helps you find the majority element in an array of numbers entered by the user.
 
