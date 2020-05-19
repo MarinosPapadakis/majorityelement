@@ -9,7 +9,7 @@ int main(void)
 	//Define variables
 	int v1;
 	int v2;
-    int n1 = 0;
+    	int n1 = 0;
 	int n2 = 0;
 	bool start = false;
 	int p;
@@ -38,13 +38,13 @@ int main(void)
 	    list[i] = 10000;
    	    do
    	    {
-   		    printf("Enter number %i: ", i + 1);
-       	    scanf("%d", &list[i]);
-       	    if (list[i] > 9999)
-       	    {
-                printf("Wrong input. Accept only numbers up to 9.999\n");
-       	    }
-       	    getchar();
+            	printf("Enter number %i: ", i + 1);
+       	    	scanf("%d", &list[i]);
+       	    	if (list[i] > 9999)
+       	    	{
+                	printf("Wrong input. Accept only numbers up to 9.999\n");
+       	    	}
+       	    	getchar();
    	    }
    	    while(list[i] > 9999);
     }
@@ -69,7 +69,7 @@ int main(void)
     	{
     		start = true;
     		v1 = list[i];
-    	    break;
+    	    	break;
     	}
     }
 
