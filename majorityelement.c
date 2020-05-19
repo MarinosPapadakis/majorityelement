@@ -6,16 +6,16 @@
 
 int main(void)
 {
-	//Define variables
-	int v1;
-	int v2;
-    	int n1 = 0;
-	int n2 = 0;
-	bool start = false;
-	int p;
-	int num;
+    //Define variables
+    int v1;
+    int v2;
+    int n1 = 0;
+    int n2 = 0;
+    bool start = false;
+    int p;
+    int num;
 
-	//Ask for number of values
+    //Ask for number of values
     do
     {
     	printf("Enter number of values (2 - 9.999): ");
