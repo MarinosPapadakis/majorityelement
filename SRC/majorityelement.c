@@ -5,12 +5,12 @@
 
 int main(void)
 {
-	//Define variables
-	int count;
-	int p;
-	int num;
+    //Define variables
+    int count;
+    int p;
+    int num;
 
-	//Ask for number of values
+    //Ask for number of values
     do
     {
     	printf("Enter number of values (2 - 9.999): ");
@@ -33,13 +33,13 @@ int main(void)
 	    list[i] = 10000;
    	    do
    	    {
-   		    printf("Enter number %i: ", i + 1);
-       	    scanf("%d", &list[i]);
-       	    if (list[i] > 9999)
-       	    {
-                printf("Wrong input. Accept only numbers up to 9.999\n");
-       	    }
-       	    getchar();
+		printf("Enter number %i: ", i + 1);
+		scanf("%d", &list[i]);
+       	    	if (list[i] > 9999)
+       	    	{
+                	printf("Wrong input. Accept only numbers up to 9.999\n");
+       	    	}
+       	    	getchar();
    	    }
    	    while(list[i] > 9999);
     }
